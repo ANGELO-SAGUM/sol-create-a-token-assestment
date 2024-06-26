@@ -39,3 +39,12 @@ To mint tokens, call the `mint` function with the recipient's address and the am
 
 ```solidity
 mint(address _to, uint256 _value)
+## Burning Tokens
+To burn tokens, call the burn function with the address from which the tokens will be burned and the amount of tokens to burn. The address must have a sufficient balance to burn the specified amount of tokens.
+burn(address _from, uint256 _value)
+
+## License
+This project is licensed under the MIT License.
+
+
+
